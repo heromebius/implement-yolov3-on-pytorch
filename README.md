@@ -18,14 +18,16 @@
 
 ###  圖片偵測
 
+此為應用在ubuntu 終端機上
 若要做圖片偵測,請輸入
 
-		`python detect.py --images 你的圖片 --det 你要存放的位置`
+		python detect.py --images 你的圖片 --det 你要存放的位置
 
 ###  影片偵測
 
-若要做影片偵測,請輸入
+若要做影片偵測,請輸入:
 
-		`python video.py --video 你的影片`
+		python video.py --video 你的影片
 
 **請注意**,因為opencv的只能讀取avi檔的影片,因此在偵測前請先把影片格式改成.avi檔
+
